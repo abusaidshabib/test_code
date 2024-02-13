@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Bali_baba</title>
+
+    <!-- Additional CSS File -->
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+</head>
+<body>
+
+    <!-- Header or Menu section -->
+    <header class="grid place-items-center relative">
+        <div class="flex justify-between items-center w-full h-24 xl:px-36 lg:px-24 md:px-20 sm:px-16 px-8">
+            <div id="hm-menu" class="lg:hidden">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </div>
+            <a href="/index.html">
+                <p class="font-bold text-2xl text-secondary">Bali<span class="text-primary">Baba</span></p>
+            </a>
+            <form class="hidden gap-0 lg:flex">
+                <select class="px-5 py-2 outline-none border-2 border-primary-v1 rounded-l-md font-medium text-neural" name="category" id="category">
+                    <option value="">All Category</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Electronic">Electronic</option>
+                    <option value="Devices">Devices</option>
+                </select>
+                <input class="px-5 py-2 outline-none border-2 border-primary-v1 font-medium text-neural border-x-0" type="text" name="search" id="search" placeholder="Search...">
+                <button class="border-2 border-l-0 pr-5 rounded-r-md" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+            <div class="flex gap-6 text-xl">
+                <span class="lg:block hidden">
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="bg-primary h-14 w-full lg:grid hidden place-items-center xl:px-36 lg:px-24 md:px-20 sm:px-16 px-8">
+            <ul class="flex justify-between items-center xl:gap-28 text-primary-v2 font-medium tracking-wider uppercase text-sm cursor-pointer">
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Products</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Blogs</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Contact Us</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- sidebar -->
+    <div class="absolute w-screen h-screen top-0 left-0 hidden" id="sidebar">
+        <div class="min-w-96 h-full bg-white p-10">
+            <p class="text-center text-2xl p-5 bg-secondary_v2" id="menu-close">x</p>
+            <form class="grid pt-10">
+                <div class="flex justify-center border">
+                    <input class="px-5 py-2 outline-none font-medium text-neural" type="text" name="search" id="search" placeholder="Search...">
+                    <button class="px-8 bg-secondary_v2" type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <select class="p-5 outline-none font-medium text-neural bg-secondary_v2" name="category" id="category">
+                    <option value="">All Category</option>
+                    <option value="Beauty">Beauty</option>
+                    <option value="Electronic">Electronic</option>
+                    <option value="Devices">Devices</option>
+                </select>
+            </form>
+            <ul class="grid gap-3 pt-10 items-center xl:gap-28 text-primary-v2 font-medium tracking-wider uppercase text-sm cursor-pointer">
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Home</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Products</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Blogs</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">Contact Us</a>
+                </li>
+                <li class="hover:text-secondary_v2">
+                    <a href="/index.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="w-full bg-opacity-20 bg-black"></div>
+    </div>
+
+<!-- Hero section -->
+<Section class="grid lg:grid-cols-2 xl:px-36 lg:px-24 md:px-20 sm:px-16 px-8 py-7 gap-7 text-secondary">
+    <div class="hero_img1 p-12 shadow-xl rounded-xl flex flex-col items-start gap-3">
+        <p class="text-sm font-medium text-primary">Discover, Click, Delight</p>
+        <p class="text-3xl font-bold">Your Ultimate Online Retail Destination</p>
+        <p>Welcome to ShopSmart, where convenience meets quality. Explore a vast array of products, from everyday essentials to unique finds.</p>
+        <button class="bg-secondary px-8 py-3 text-secondary_v2 font-medium rounded-full uppercase tracking-wider">Show Now</button>
+    </div>
+    <div class="grid gap-8">
+        <div class="hero_img2 p-12 shadow-xl rounded-xl flex flex-col items-start gap-3">
+            <p class="text-sm font-medium text-primary">Discover, Click, Delight</p>
+            <p class="text-3xl font-bold">Your Ultimate Online Retail Destination</p>
+            <p>Welcome to ShopSmart, where convenience meets quality. Explore a vast array of products, from everyday essentials to unique finds.</p>
+            <button class="bg-secondary px-8 py-3 text-secondary_v2 font-medium rounded-full uppercase tracking-wider">Show Now</button>
+        </div>
+        <div class="hero_img3 p-12 shadow-xl rounded-xl flex flex-col items-start gap-3">
+            <p class="text-sm font-medium text-primary">Discover, Click, Delight</p>
+            <p class="text-3xl font-bold">Your Ultimate Online Retail Destination</p>
+            <p>Welcome to ShopSmart, where convenience meets quality. Explore a vast array of products, from everyday essentials to unique finds.</p>
+            <button class="bg-secondary px-8 py-3 text-secondary_v2 font-medium rounded-full uppercase tracking-wider">Show Now</button>
+        </div>
+    </div>
+</Section>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/2d9122b2bd.js" crossorigin="anonymous"></script>
+
+    <!-- Tailwind Config file -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwindConfig.js"></script>
+    <script src="./assets/js/home.js"></script>
+
+    <!-- JavaScript link -->
+</body>
+</html>

@@ -1,0 +1,17 @@
+.hero_img1{
+    background-image: url("../images/hero_img1.jpg");
+    background-size: cover;
+    background-position: left center;
+}
+.hero_img2{
+    background-image: url("../images/hero_img2.jpg"), linear-gradient(#ffffff, #818181);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: left center;
+}
+.hero_img3{
+    background-image: url("../images/hero_img3.jpg"), linear-gradient(#ffffff, #818181);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: left center;
+}
